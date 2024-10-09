@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",         // Specify ECMAScript target version
+    "module": "commonjs",       // Specify module code generation
+    "jsx": "react",             // Specify JSX code generation
+    "strict": true,             // Enable all strict type checking options
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
+    "skipLibCheck": true        // Skip type checking of declaration files
+  },
+  "exclude": [
+    "node_modules",            // Exclude node_modules
+    "**/__tests__/**/*"        // Exclude test files
+  ]
+}
